@@ -3,7 +3,7 @@
 
 ## 使用技術與資源
 
-- RWD 斷點: `576px`, `768px`, `992px`, `1200px`
+- RWD 斷點: `576px`, `768px`, `992px`, `1200px`
 - CSS Framework: Bootstrap 4
 - 手刻純 CSS menu bar
 - Fontawesome
