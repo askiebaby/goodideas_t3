@@ -3,9 +3,8 @@
 
 ## 使用技術與資源
 
-純 CSS 切版。
+- RWD 斷點: `576px`, `768px`, `992px`, `1200px`
 - CSS Framework: Bootstrap 4
-- RWD
 - 手刻純 CSS menu bar
 - Fontawesome
 
@@ -13,10 +12,11 @@
 
 第一次使用 `Bootstrap 4` 切版的練習，主要是練習對 `grid system` 及元件的熟悉度，了解每個斷點代表的意義（裝置的橫向與直向）。
 其中利用 `counter` 及 `counter-increment` 搭配偽元素來製作粗體並且 `margin` 一致的 `list item` (@TIPS OF THE WEEK)。
+切版方向：從 `大裝置寬度` 切到 `小裝置寬度`。
 
-## 網頁連結
+## 成品 Demo
 
-**待補**
+[GitHub Page](https://askiebaby.github.io/goodideas_t3/)
 
 
 ## 設計圖

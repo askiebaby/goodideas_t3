@@ -173,7 +173,7 @@ body {
         padding: 1.5rem 0;
     }
 }
-@media (max-width: 768px) { 
+@media (max-width: 767px) { 
 
     .spotlight__textBox {
         position: relative;
@@ -190,7 +190,7 @@ body {
     }
 }
 
-@media (max-width: 576px) { 
+@media (max-width: 575px) { 
     
     .spotlight__tips img {
         width: 100%;
@@ -268,13 +268,13 @@ body {
     left: 0;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 767px) { 
     .content__tipsOfWeek img {
         margin-bottom: 1rem;
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     .content {
         padding: 15px;
     }
