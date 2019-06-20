@@ -67,16 +67,13 @@ function downloadZip(encoding) {
 
   // 新增要下載的檔案到資料夾中
   encoding.forEach((source, index) => {
-    photos.file(`Askie-Test-File-${index + 1}.jpg`, encoding, { base64: true });
+    console.log(source);
+    photos.file(`Askie-Test-File-${index + 1}.jpg`, source, { base64: true });
   });
 
-  console.log("去掉頭的base64 >>", encoding);
-
   // 直接下載
-  zip.generateAsync({ type: "blob" }).then(function(base64) {
-    console.log("blob >>>", base64);
-    saveAs(base64, "hello.zip");
-    // window.location = "data:application/zip;base64," + base64;
+  zip.generateAsync({ type: "base64" }).then(function(base64) {
+    window.location = "data:application/zip;base64," + base64;
   });
 }
 
